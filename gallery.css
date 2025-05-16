@@ -1,0 +1,77 @@
+/* Стили для страницы "Галерея работ" */
+.gallery-main {
+    margin: 120px auto;
+}
+
+
+.gallery-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-item img {
+    width: 635px;
+    height: 444px;
+}
+
+.gallery-text {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+.gallery-section {
+    margin: 100px auto;
+}
+
+.gallery-title {
+    color: #d8cc34;
+    font-size: 64px;
+    margin-bottom: 40px;
+    text-align: left;
+    position: relative;
+}
+
+.gallery-title:hover {
+    text-decoration: underline;
+}
+
+.project-display {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.project-media {
+    width: 70%;
+    overflow: hidden;
+}
+
+.project-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    pointer-events: none;
+}
+
+.project-description {
+    width: 230px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.project-description p {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
